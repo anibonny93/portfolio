@@ -31,6 +31,7 @@ app/
   about/page.tsx           Narrative, education and timeline
   projects/                Filtered catalog and five project detail routes
   publications/page.tsx    Topic filter, citations and peer review service
+  certifications/page.tsx Credential gallery with click-to-open documents
   contact/page.tsx         Direct links and email draft form
   layout.tsx               Shared shell, theme script and Person JSON-LD
   globals.css              Design tokens, responsive and print styles
@@ -39,6 +40,7 @@ components/                Shared navigation, motion, filters and calls to actio
 data/portfolio.ts          ALL personal/career/project/publication content
 lib/site.ts                Base-path-aware assets and SEO metadata helper
 public/headshot.svg        Visible monogram placeholder
+public/certifications/     Certificate images, PDF files and web previews
 public/resumes/            Seven working placeholder PDFs
 .github/workflows/         GitHub Pages build and deployment
 ```
@@ -52,6 +54,7 @@ public/resumes/            Seven working placeholder PDFs
 - `tracks`: headlines, summaries, relevant skills/tools, education references and resume paths. Skill levels are evidence categories (Applied, Research, Developing), not numeric scores or licenses. Review these editorial labels before publishing.
 - `projects`: problem, approach, tools, outcome and track tags. Changing IDs changes URLs.
 - `publications`: add verified journal and conference citations using the commented example. Supply the DOI identifier only (`10.xxxx/...`); the interface creates `https://doi.org/` links. Topics automatically extend the filter. `trackIds` controls track-page relevance. No titles, authors, DOIs, dates or unprovided metrics were invented.
+- `certifications`: edit credential names, issuers, dates, descriptions and role-track relevance. Store public documents in `public/certifications/`; `image` is the optimized card preview and `document` is what opens when a recruiter clicks it. Never publish private IDs or application numbers.
 - `profile.bio`, `timeline`, `education`, `reviewService`: add exact institutions, employment/degree dates and verified details where marked. The LADOTD entries intentionally avoid fabricated duties and achievements. Semiconductor content explicitly describes transferable materials experience.
 - `profile.siteUrl`: production origin plus optional repository subpath. `NEXT_PUBLIC_SITE_URL` overrides it at build time. Never add a trailing slash.
 
