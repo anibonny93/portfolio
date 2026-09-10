@@ -1,0 +1,7 @@
+import { profile } from '@/data/portfolio';
+import { PageIntro } from '@/components/shared';
+import { ContactForm } from '@/components/contact-form';
+import { ResumeLink } from '@/components/interactive';
+import { metadata } from '@/lib/site';
+export const generateMetadata=()=>metadata('Contact','Connect with Aniruddha Chowdhury about engineering opportunities. Based in Ruston, Louisiana; open to relocation.','/contact');
+export default function Contact(){const links=[['Email',profile.email?`mailto:${profile.email}`:'',profile.email],['Phone',profile.phone?`tel:${profile.phone.replace(/[^+\d]/g,'')}`:'',profile.phone],['LinkedIn',profile.linkedin,'View LinkedIn'],['GitHub',profile.github,'View GitHub'],['Google Scholar',profile.scholar,'View Google Scholar']];return <div className="shell"><PageIntro eyebrow="Contact" title="Let’s build what’s next." description={`${profile.location}. ${profile.relocation}. Reach out about an engineering role, research collaboration or technical conversation.`}/><div className="contact-layout"><ContactForm/><aside className="contact-details"><p className="eyebrow">Direct connections</p>{links.map(([name,href,label])=><div key={name}><h2>{name}</h2>{href?<a className="inline-link" href={href}>{label}</a>:<p className="muted">{name} to be added</p>}</div>)}<ResumeLink/><p className="muted resume-note">Your resume download follows the last role track you visited.</p></aside></div></div>}
