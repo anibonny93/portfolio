@@ -10,7 +10,7 @@ export const profile = {
   email: 'ani.nitjsr@gmail.com', // EDIT: e.g. name@example.com. Blank values display an honest placeholder.
   phone: '+1-(469)-493-2577', // EDIT: international format, e.g. +1 555 555 5555
   linkedin: 'https://www.linkedin.com/in/aniruddha93/', github: 'https://github.com/anibonny93', scholar: 'https://scholar.google.com/citations?user=mviTyTkAAAAJ&hl=en', // EDIT: full https:// URLs
-  headshot: '/headshot.svg', headshotAlt: 'AC monogram — headshot placeholder', // Replace asset and alt text together.
+  headshot: '/headshot.jpg', headshotAlt: 'Portrait of Aniruddha Chowdhury', // Replace asset and alt text together.
   resume: '/resumes/general.pdf', resumeIsPlaceholder: true, // Set false after replacing ALL seven PDFs.
   siteUrl: 'https://example.com', // EDIT: production URL, including repository path for GitHub Pages; env overrides it.
   bio: [
