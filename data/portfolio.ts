@@ -10,7 +10,7 @@ export const profile = {
   email: '', // EDIT: e.g. name@example.com. Blank values display an honest placeholder.
   phone: '', // EDIT: international format, e.g. +1 555 555 5555
   linkedin: '', github: '', scholar: 'https://scholar.google.com/citations?user=mviTyTkAAAAJ&hl=en', // EDIT: full https:// URLs
-  headshot: '/headshot.svg', headshotAlt: 'AC monogram — headshot placeholder', // Replace asset and alt text together.
+  headshot: '/headshot.jpg', headshotAlt: 'AC monogram — headshot placeholder', // Replace asset and alt text together.
   resume: '/resumes/general.pdf', resumeIsPlaceholder: true, // Set false after replacing ALL seven PDFs.
   siteUrl: 'https://example.com', // EDIT: production URL, including repository path for GitHub Pages; env overrides it.
   bio: [
