@@ -14,7 +14,7 @@ export const profile = {
   resume: '/resumes/general.pdf', resumeIsPlaceholder: true, // Set false after replacing ALL seven PDFs.
   siteUrl: 'https://www.aniruddhachowdhury.com',
   bio: [
-    'I am a mechanical engineer based in Ruston, Louisiana, currently serving as Engineer Intern 2 at the Louisiana Department of Transportation and Development. My work connects industrial operations, manufacturing quality, and sustainable materials research.',
+    'I am a mechanical engineer based in Ruston, Louisiana. My work connects industrial operations, manufacturing quality, and sustainable materials research.',
     'I earned a Ph.D. in Micro and Nanoscale Systems at Louisiana Tech University in May 2026. My dissertation developed multiscale computational models of asphalt-polymer compatibility. As computational lead on an FHWA-funded project, I created atomistic and coarse-grained approaches for polymer-modified asphalt, oxidative aging and recycled-plastic binders.',
     'Before my doctoral research, I worked as a Process Engineer at a hydrogen peroxide plant from 2018 to 2020. My industrial experience includes DCS monitoring and optimization of VDU/SRU units, Aspen Plus material and energy balances, and supervision of more than 25 operators. A distillation improvement that raised Cpk from approximately 1.14 to 1.4 earned a Kaizen Award.',
     'My earlier automotive and transit manufacturing quality work included HVAC sub-assembly validation, high-volume polymer component inspection, and AutoCAD and SolidWorks modeling. I passed the PE Mechanical: HVAC and Refrigeration exam in July 2026 and am completing the licensure process. I also review papers for transportation, chemistry and materials journals.'
