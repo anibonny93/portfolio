@@ -25,7 +25,7 @@ export const profile = {
     { when: '2018–2020', title: 'Process Engineer · Al-Razi Chemical Complex', detail: 'Hydrogen peroxide production; Aspen Plus modeling, DCS monitoring and supervision of 25+ operators.' },
     { when: '2021–2026', title: 'Graduate Research Assistant · Louisiana Tech University', detail: 'Led FHWA-funded computational research and collaborated on Louisiana Board of Regents and NASA EPSCoR projects.' },
     { when: 'May 2026', title: 'Ph.D. · Louisiana Tech University', detail: 'Micro and Nanoscale Systems; multiscale modeling of asphalt-polymer compatibility.' },
-    { when: 'Current', title: 'Engineer Intern 2 · LADOTD', detail: 'Louisiana Department of Transportation and Development. Start date to be added.' },
+    { when: 'Current', title: 'Engineer 2', detail: 'Department of Environmental Quality' },
     { when: 'July 2026', title: 'PE Mechanical exam passed', detail: 'Passed the HVAC and Refrigeration exam; licensure process remains in progress.' }
   ]
 };
