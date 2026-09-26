@@ -11,7 +11,7 @@ export const profile = {
   phone: '+1 469-493-2577',
   linkedin: 'https://www.linkedin.com/in/aniruddha93/', github: 'https://github.com/anibonny93/MD-simulation-of-asphalt-and-polymer', scholar: 'https://scholar.google.com/citations?user=mviTyTkAAAAJ&hl=en',
   headshot: '/headshot.jpg', headshotAlt: 'Portrait of Aniruddha Chowdhury',
-  resume: '/resumes/general.pdf', resumeIsPlaceholder: true, // Set false after replacing ALL seven PDFs.
+  resume: '/resumes/general.pdf', resumeIsPlaceholder: false, // Set false after replacing ALL seven PDFs.
   siteUrl: 'https://www.aniruddhachowdhury.com',
   bio: [
     'I am a mechanical engineer based in Ruston, Louisiana. My work connects industrial operations, manufacturing quality, and sustainable materials research.',
