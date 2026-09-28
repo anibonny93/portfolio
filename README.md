@@ -55,7 +55,7 @@ public/resumes/            Seven working placeholder PDFs
 - `projects`: problem, approach, tools, outcome and track tags. Changing IDs changes URLs.
 - `publications`: add verified journal and conference citations using the commented example. Supply the DOI identifier only (`10.xxxx/...`); the interface creates `https://doi.org/` links. Topics automatically extend the filter. `trackIds` controls track-page relevance. No titles, authors, DOIs, dates or unprovided metrics were invented.
 - `certifications`: edit credential names, issuers, dates, descriptions and role-track relevance. Store public documents in `public/certifications/`; `image` is the optimized card preview and `document` is what opens when a recruiter clicks it. Never publish private IDs or application numbers.
-- `profile.bio`, `timeline`, `education`, `reviewService`: add exact institutions, employment/degree dates and verified details where marked. The LADOTD entries intentionally avoid fabricated duties and achievements. Semiconductor content explicitly describes transferable materials experience.
+- `profile.bio`, `timeline`, `education`, `reviewService`: add exact institutions, employment/degree dates and verified details where marked. Semiconductor content explicitly describes transferable materials experience.
 - `profile.siteUrl`: production origin plus optional repository subpath. `NEXT_PUBLIC_SITE_URL` overrides it at build time. Never add a trailing slash.
 
 All career content is in this data file; components contain reusable interface labels. Assets are separate binary files by design.
